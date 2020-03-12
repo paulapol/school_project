@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GASESTE TELEFONUL</string>
+    <string name="get_location">Acceseaza locatia</string>
+    <string name="longitude">Longitudinea</string>
+    <string name="latitude">Latitudinea</string>
+    <string name="textview">TextView</string>
+    <string name="send_position">Trimite pozitia</string>
+    <string name="authenticate">Logare</string>
+</resources>

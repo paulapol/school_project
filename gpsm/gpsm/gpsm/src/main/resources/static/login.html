@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/mulipleactions.js"></script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
+
+    <style>
+        .form-container{ border: 0px solid #ffffff; padding: 50px 60px; margin-top:20vh;
+            -webkit-box-shadow: 1px 4px 26px 11px rgba(0,0,0,0.75);
+            -moz-box-shadow: 1px 4px 26px 11px rgba(0,0,0,0.75);
+            box-shadow: 1px 4px 26px 11px rgba(0,0,0,0.75); }
+    </style>
+    <style>
+        body {
+            background-image: url('bg.jpg');
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-4 col-sm-4 col-xs-12"></div>
+        <div class="col-md-4 col-sm-4 col-xs-12">
+
+            <form class="form-container">
+                <div class="form-group">
+                    <label for="user">Username</label>
+                    <input type="username" class="form-control" id="user" placeholder="Username">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Password">
+                </div>
+                <tr>
+                    <td></td>
+                    <td align="center"><input type="button" id="login" size="35" value="Login"
+                                              onclick=loginbutton()></td>
+                </tr>
+            </form>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12"></div>
+    </div>
+</div>
+
+
+</body>
+</html>
+
+
+
